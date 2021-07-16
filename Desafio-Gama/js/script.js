@@ -14,12 +14,11 @@ form.addEventListener('submit', (e) => {
 
   let content = document.getElementById('content')
 
-  let carregando = `<p style="text-align: center;>Carregando...</p>`
+  let carregando = `<p>Carregando...</p>`
 
   let pronto = `<p style="text-align: center;">E-mail enviado com sucesso.</p>`
 
   content.innerHTML = carregando
-
 
   setTimeout(() => {
     content.innerHTML = pronto
